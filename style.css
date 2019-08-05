@@ -6,11 +6,9 @@
 	--color-topbar-bg: #202020;
 	--color-topbar-color: #f1f1f1;
 	--color-sidebar-bg: #f5f5f5;
-	--color-sidebar-border: #c8c8c8;
 	--color-sidebar-color: #343434;
 	--color-article-border: #b7b7b7;
 	--color-section-border: #c8c8c8;
-	--color-colorpreview-border: #777777;
 
 	--size-topbar-height: 2.5rem;
 	--size-sidebar-width: 15rem;
@@ -66,7 +64,6 @@ a {
 	padding: .5em;
 	background-color: var(--color-sidebar-bg);
 	color: var(--color-sidebar-color);
-	border-right: 1px solid var(--color-sidebar-border);
 }
 #sidebar a {
 	text-decoration: none;
@@ -104,6 +101,5 @@ section + section {
 	display: inline-block;
 	width: 10em;
 	height: 10em;
-	border: 1px solid var(--color-colorpreview-border);
 	border-radius: var(--size-colorpreview-border-radius);
 }
