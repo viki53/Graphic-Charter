@@ -1,3 +1,8 @@
+# macOS files
+.DS_Store
+Thumbs.db
+
+# Jekyll / GitHub Pages
 _site/
 .sass-cache/
 .jekyll-cache/
