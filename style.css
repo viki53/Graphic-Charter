@@ -97,6 +97,10 @@ section + section {
 	border-top: 1px solid var(--color-section-border);
 }
 
+a[target="_blank"]::after {
+	content: ' ↗️';
+}
+
 .color-preview {
 	display: inline-block;
 	width: 10em;
