@@ -10,9 +10,11 @@
 	--color-sidebar-color: #343434;
 	--color-article-border: #b7b7b7;
 	--color-section-border: #c8c8c8;
+	--color-colorpreview-border: #777777;
 
 	--size-topbar-height: 2.5rem;
 	--size-sidebar-width: 15rem;
+	--size-colorpreview-border-radius: 1em;
 }
 
 body {
@@ -96,4 +98,12 @@ section section {
 }
 section + section {
 	border-top: 1px solid var(--color-section-border);
+}
+
+.color-preview {
+	display: inline-block;
+	width: 10em;
+	height: 10em;
+	border: 1px solid var(--color-colorpreview-border);
+	border-radius: var(--size-colorpreview-border-radius);
 }
