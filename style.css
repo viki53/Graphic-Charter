@@ -101,9 +101,20 @@ a[target="_blank"]::after {
 	content: ' ↗️';
 }
 
+.color-block {
+	display: flex;
+	flex-wrap: wrap;
+}
+.color-name {
+	flex: 1 0 100%;
+}
 .color-preview {
 	display: inline-block;
+	flex: 0 0 10em;
 	width: 10em;
 	height: 10em;
 	border-radius: var(--size-colorpreview-border-radius);
+}
+.color-description {
+	padding: .5em;
 }
