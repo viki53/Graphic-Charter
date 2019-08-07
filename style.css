@@ -1,12 +1,12 @@
 :root {
 	--font-page: Verdana, Geneva, Tahoma, sans-serif;
 
-	--color-page-bg: #f8f8f8;
+	--color-page-bg: #fff;
 	--color-page-color: #202020;
 	--color-topbar-bg: #202020;
 	--color-topbar-color: #f1f1f1;
-	--color-sidebar-bg: #f5f5f5;
-	--color-sidebar-color: #343434;
+	--color-sidebar-bg: #323232;
+	--color-sidebar-color: #f5f5f5;
 	--color-article-border: #b7b7b7;
 	--color-section-border: #c8c8c8;
 
